@@ -1,0 +1,64 @@
+body{
+ 
+  margin:0;
+  padding:0;
+  background: url("wall.jpg");
+  background-size: cover;
+  
+}
+
+.SignupBox
+{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 400px;
+     height: 450px;
+     padding: 60px 40px;
+     box-sizing: border-box;
+     background: rgba(0,0,0,0.5);
+   
+ }
+
+.SingupBox input
+{
+     width: 100%;
+     margin-bottom: 20px;   
+
+}
+
+.SignupBox input[type="submit"]
+{
+       border: none;
+       outline: none;
+       height: 40px;
+       color: white;
+       font-size : 14px;
+       font-weight: bold;
+       background: rgb(255, 0, 64);
+       cursor: pointer;
+       border-radius:20px;
+
+     
+}
+
+.SignupBox input [type="submit"] :hover
+{
+    background: #00bfff;
+    color: #262626;
+}
+
+.user
+{
+        width: 100px;
+        height: 100px;
+        overflow:hidden;
+        position:absolute;
+        top:calc(-100px/2);
+        left:calc(50% - 50px);
+}
+
+
+
+
